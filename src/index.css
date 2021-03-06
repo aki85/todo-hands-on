@@ -21,6 +21,7 @@ code {
 }
 
 footer a, header a {
+  cursor: pointer;
   font-weight: bold;
   color: inherit;
 }

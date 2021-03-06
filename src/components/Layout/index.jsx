@@ -4,11 +4,11 @@ import Footer from './Footer'
 export default class Layout extends React.Component {
 
   render() {
-    const { isUpdate, isHandsOn } = this.props
+    const { isUpdate, isHandsOn, toggleIsUpdate } = this.props
     
     return (
       <>
-        <Header isUpdate={isUpdate} isHandsOn={isHandsOn} />
+        <Header isUpdate={isUpdate} isHandsOn={isHandsOn} toggleIsUpdate={toggleIsUpdate} />
         {this.props.children}
         <Footer />
       </>
