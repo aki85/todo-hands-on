@@ -1,4 +1,4 @@
-# 概要
+### 概要
 Todoリストを作ってみるやつ
 
 `src/components/handsOn/HandsOnTodo/index.jsx` にstep1 ~ step5があるので、完成形と比べながら作ってみてください。
@@ -11,8 +11,8 @@ Todoリストを作ってみるやつ
 * `src/components/Todo/index.jsx`
 * `src/components/Todo/TodoItem.jsx`
 
-# 初回のみ実行
+### 初回のみ実行
 yarn
 
-# サーバー立ち上げ時に実行
+### サーバー立ち上げ時に実行
 yarn start
